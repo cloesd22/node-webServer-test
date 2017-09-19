@@ -49,7 +49,7 @@ app.get('/about',(req,res)=>{
 app.get('/projects',(req,res)=>{
 	res.render('projects.hbs',{
 		value:'Projects go here men'
-	})
+	});
 })
 
 app.get('/bad',(req,res)=>{
